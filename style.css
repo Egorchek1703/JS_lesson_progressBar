@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.progress-place{
+    width: 90%;
+    border-radius: 30px;
+    height: 60px;
+    background: gray;
+    overflow: hidden;
+    position: relative;
+}
+.progress-line{
+    width: 0%;
+    height: inherit;
+    background: green;
+    padding: 0;
+}
+.result-progress{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+.btn-load{
+    display: block;
+    margin: 20px auto;
+    font-size: 24px;
+    font-weight: 600;
+    color: green;
+    border: 3px solid green;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 26px;
+    padding: 10px 30px;
+}
